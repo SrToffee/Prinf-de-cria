@@ -37,4 +37,4 @@ clean:
 	$(rm) *.o $(libft_Dir)/*.o
 fclean: clean
 	$(rm) $(NAME) $(libft_Dir)/$(libft) a.out
-re: fclean all
+re: fclean $(NAME)
